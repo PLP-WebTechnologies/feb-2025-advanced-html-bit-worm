@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2px 0;
+  text-align: center;
+  background-color: grey;
+}
+
+main {
+  margin-top: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+
+#home,
+#products,
+#help {
+  margin-right: 15px;
+}
+
+#image {
+  border-radius: 5px;
+  max-width: 50%;
+  height: auto;
+}
+
+fieldset {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+#name,
+#form-email,
+#form-password,
+#form-date {
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+#name:valid,
+#form-email:valid,
+#form-password:valid,
+#form-date:valid {
+  outline: 1px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+#submit-form {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+}

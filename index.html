@@ -1,0 +1,173 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my web app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="nav-menu">
+        <li id="home"><a href="#home">Home</a></li>
+        <li id="products"><a href="#products">Products</a></li>
+        <li id="help"><a href="#help">Help</a></li>
+        <li id="signup"><a href="#signup">Signup</a></li>
+      </ul>
+    </nav>   
+  </header>
+  <main>
+    <section id="home">
+      <h1>Welcome User</h1>
+      <p>Welcome to the best tech support. We will help you with any tech problems.</p>
+    </section>
+    <section id="products">
+      <p>Here is a list of our products</p>
+      <ol class="roman-list" type="i">
+        <li>OS installation</li>
+        <li>Network troubleshooting</li>
+        <li>System Updating</li>
+        <li>Thermal paste changing</li>
+        <li>Software installation</li>
+        <li>Document printing</li>
+      </ol>
+      <img src="pexels-sorjigrey-9956769.jpg" id="image" alt="sample image">
+    </section>
+    <section id="help">
+      <table>
+        <tr>
+          <td>
+            <p>Name</p>
+          </td>
+          <td>
+            <p>Address</p>
+          </td>
+          <td>
+            <p>Mobile</p>
+          </td>
+          <td>
+            <p>Email</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Michele</p>
+          </td>
+          <td>
+            <p>22453</p>
+          </td>
+          <td>
+            <p>+454 34556</p>
+          </td>
+          <td>
+            <p>michele@email</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Bob</p>
+          </td>
+          <td>
+            <p>63762</p>
+          </td>
+          <td>
+            <p>+454 73627</p>
+          </td>
+          <td>
+            <p>bob@email</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>chuck</p>
+          </td>
+          <td>
+            <p>5635</p>
+          </td>
+          <td>
+            <p>+454 83737</p>
+          </td>
+          <td>
+            <p>chuck@email</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Daria</p>
+          </td>
+          <td>
+            <p>6876</p>
+          </td>
+          <td>
+            <p>+454 78323</p>
+          </td>
+          <td>
+            <p>daria@email</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Fiona</p>
+          </td>
+          <td>
+            <p>293</p>
+          </td>
+          <td>
+            <p>+454 82933</p>
+          </td>
+          <td>
+            <p>fiona@email</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section id="signup">
+      <form>
+        <fieldset>
+          <legend>SignUp</legend>
+          <label for="name">Full Name</label><br>
+          <input type="text" id="name" minlength="3" placeholder="full name" required><br>
+          <label for="form-email">Email</label><br>
+          <input type="email" id="form-email" placeholder="example@mail.com" required><br>
+          <label for="form-password">Password</label><br>
+          <input type="password" id="form-password" placeholder="strong password" minlength="8" required><br>
+          <label for="form-date">Date</label>
+          <input type="date" id="form-date" pattern="dd/m/yyyy" required><br>
+          <!-- radio buttons -->
+          <input type="radio" id="student" name="status" value="Student" required>
+          <label for="student">Student</label><br>
+          <input type="radio" id="employed" name="status" value="Employed" required>
+          <label for="employed">Employed</label><br>
+          <input type="radio" id="unemployed" name="status" value="Unemployed" required>
+          <label for="unemployed">Unemployed</label><br>
+          <!-- Drop-down menu -->
+          <label for="county">Choose your County</label>
+          <select id="county">
+            <option value="nairobi">Nairobi</option>
+            <option value="tharaka-nitthi">Tharaka-Nitthi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kiambu">Kiambu</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="trans-nzoia">Trans-Nzoia</option>
+            <option value="meru">Meru</option>
+          </select><br/>
+          <!-- Checkboxes -->
+          <input type="checkbox" id="terms" name="terms" value="agree-to-terms" required>
+          <label for="terms">I have read and agree to the terms and conditions.</label><br>
+          <input type="checkbox" id="subscribe" name="subscribe" value="subscribe-to-newsletter">
+          <label for="subscribe">Subscribe to our weekly newsletter.</label><br>
+          <input type="submit" id="submit-form">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <li><a href="https://www.linkedin.com/in/boniface-sitati-z11">LinkedIn</a></li>
+    <li><a href="https://github.com/bit-worm">Gituhb</a></li>
+    <li><a href="https://x.com/bit_worm_">X(twitter)</a></li>
+    <hr>
+    <p>Copyright 2025</p>
+  </footer>
+</body>
+</html>
